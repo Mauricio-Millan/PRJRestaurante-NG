@@ -1,1 +1,25 @@
-<p>menu-item-full works!</p>
+<div class="menu-container" *ngIf="menu">
+  <div class="menu-card">
+    <img [src]="menu.imagen" alt="Imagen de {{menu.nombre}}" class="menu-img" />
+    <div class="menu-info">
+      <h2 class="menu-title">{{ menu.nombre }}</h2>
+      <p class="menu-desc">{{ menu.descripcion }}</p>
+      <div class="menu-details">
+        <span class="menu-price" *ngIf="menu.descuento === 0">${{ menu.precio }}</span>
+        <span class="menu-price" *ngIf="menu.descuento > 0">
+          <span class="old-price">${{ menu.precio }}</span>
+          ${{ menu.precio - menu.descuento }}
+        </span>
+        <span class="menu-category">{{ menu.tipo }}</span>
+      </div>
+      <div class="menu-extra">
+        <span *ngIf="menu.cubiertos">🍴 {{ menu.cubiertos }}</span>
+        <span *ngIf="menu.info">ℹ️ {{ menu.info }}</span>
+      </div>
+      <button class="menu-action">Agregar al pedido</button>
+    </div>
+  </div>
+</div>
+<div *ngIf="!menu" class="loading">
+  Cargando información del menú...
+</div>

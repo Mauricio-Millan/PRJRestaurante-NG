@@ -11,9 +11,25 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './menu.component.scss'
 })
 export class MenuComponent {
-  menulist:ObjMenu[] = [];
+  menulist: ObjMenu[] = [];
   filtromenu: string = '';
-  filtromenulist:ObjMenu[] = [];
+  filtromenulist: ObjMenu[] = [];
+  currentPage: number = 1;
+  itemsPerPage: number = 9;
+
+  // creamos un objeto de cetegoría para filtrar
+  tipo: {nombre: string}[] = [
+    { nombre: 'Mariscos' },
+    { nombre: 'Carnes' },
+    { nombre: 'Italiana' },
+    { nombre: 'Rápida' }
+  ]
+  tipocubierto: {nombrecubierto: string }[] = [
+    { nombrecubierto: 'Plato de fondo' },
+    { nombrecubierto: 'Entrada' },
+    { nombrecubierto: 'Postre' },
+    { nombrecubierto: 'Bebida' }
+  ]
 
   servicioMenu: MenuserviceService = inject(MenuserviceService);
   constructor() {
@@ -21,7 +37,23 @@ export class MenuComponent {
       this.menulist = productslist;
       this.filtromenulist = productslist;})
   }
-  filtrarmenu(text: string) {
+  get paginatedMenus(): ObjMenu[] {
+    const start = (this.currentPage - 1) * this.itemsPerPage;
+    return this.filtromenulist.slice(start, start + this.itemsPerPage);
+  }
+
+  get totalPages(): number {
+    return Math.ceil(this.filtromenulist.length / this.itemsPerPage);
+  }
+
+  goToPage(page: number) {
+    if (page >= 1 && page <= this.totalPages) {
+      this.currentPage = page;
+    }
+  }
+
+  // Método para filtrar por nombre
+  filtrarmenunombre(text: string) {
     if (!text) {
       this.filtromenulist = this.menulist;
       return;
@@ -29,16 +61,30 @@ export class MenuComponent {
     this.filtromenulist = this.menulist.filter((menu) =>
       menu?.nombre.toLowerCase().includes(text.toLowerCase())
   )
+  this.currentPage = 1;
   }
-    // Método para manejar la selección de una marca
-  filtrarmenuporCubierto(tipocubierto: string) {
-        if (!tipocubierto) {
+  // Método para filtrar por tipo
+  filtrarmenuporTipo(tipoplato: string) {
+        if (!tipoplato) {
       this.filtromenulist = this.menulist;
       return;
     }
     this.filtromenulist = this.menulist.filter((menu) =>
-      menu?.cubierto.toLowerCase().includes(tipocubierto.toLowerCase())
-  )
-    // Aquí puedes implementar la lógica para filtrar productos por marca
+      menu?.tipo.toLowerCase().includes(tipoplato.toLowerCase())
+  );
+  this.currentPage = 1;
   }
+  // Método para manejar la selección de un cubierto
+  filtrarmenuporCubierto(tipocubierto: string) {
+  if (!tipocubierto) {
+    this.filtromenulist = this.menulist;
+    return;
+  }
+
+  this.filtromenulist = this.menulist.filter((menu) =>
+    menu?.cubiertos && menu.cubiertos.toLowerCase().includes(tipocubierto.toLowerCase())
+  );
+    console.log(this.filtromenulist, "datos obtenidos filtrados por cubierto");
+    this.currentPage = 1;
+}
 }

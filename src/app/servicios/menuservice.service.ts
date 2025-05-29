@@ -10,7 +10,7 @@ export interface ObjMenu{
       imagen: string;
       info: string;
       tipo: string;
-      cubierto: string;
+      cubiertos: string;
 }
 
 @Injectable({
@@ -25,7 +25,9 @@ export class MenuserviceService {
       return (await data.json());
     }
     async getProductsbyID(id: number): Promise<ObjMenu | undefined> {
-      const data = await fetch(`${this.url+"platos"}/${ id}`);
-      return (await data.json()) ?? {};
+      const data = await fetch(`${this.url}platos?idplato=${id}`);
+      const result = await data.json();
+      // Si la API devuelve un array, retorna el primer elemento
+      return Array.isArray(result) ? result[0] : result;
     }
 }

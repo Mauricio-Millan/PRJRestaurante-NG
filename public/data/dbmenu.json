@@ -108,7 +108,118 @@
       "info": "",
       "tipo": "Rápida",
       "cubiertos": "Plato de fondo"
-    }
+    },
+     {
+    "idplato": 10,
+    "nombre": "Ají de Gallina",
+    "precio": 24.90,
+    "descuento": 5,
+    "descripcion": "Guiso cremoso de gallina deshilachada con ají amarillo, acompañado de arroz y papas.",
+    "imagen": "https://www.recetasnestle.com.pe/sites/default/files/styles/recipe_detail/public/2022-09/Aji-de-gallina_1.jpg",
+    "info": "Servido con aceitunas y huevo duro.",
+    "tipo": "Tradicional",
+    "cubiertos": "Plato de fondo"
+  },
+  {
+    "idplato": 11,
+    "nombre": "Arroz Chaufa",
+    "precio": 22.50,
+    "descuento": 3,
+    "descripcion": "Arroz frito al estilo peruano-chino con pollo, verduras y salsa de soya.",
+    "imagen": "https://th.bing.com/th/id/OIP.P54UMZgkrnOxIR4apBLm6gHaEo?pid=ImgDet&rs=1",
+    "info": "Puede llevar mariscos o carne de res.",
+    "tipo": "Fusión",
+    "cubiertos": "Plato de fondo",
+    "id": "9a7b"
+  },
+  {
+    "idplato": 12,
+    "nombre": "Tacu Tacu",
+    "precio": 26.90,
+    "descuento": 7,
+    "descripcion": "Mezcla de arroz y frejoles dorados en sartén, servido con bistec y huevo frito.",
+    "imagen": "https://www.lacocinademona.com/wp-content/uploads/2021/10/Tacu-Tacu-RR.jpg",
+    "info": "Puede llevar salsa criolla encima.",
+    "tipo": "Tradicional",
+    "cubiertos": "Plato de fondo"
+  },
+  {
+    "idplato": 13,
+    "nombre": "Papa a la Huancaína",
+    "precio": 18.00,
+    "descuento": 4,
+    "descripcion": "Rodajas de papa bañadas en salsa de ají amarillo y queso fresco.",
+    "imagen": "https://comidasperuanas.net/wp-content/uploads/2016/07/Papa-a-la-huancaina.jpg",
+    "info": "Servido con huevo duro y aceitunas negras.",
+    "tipo": "Entrada",
+    "cubiertos": "Entrada"
+  },
+  {
+    "idplato": 14,
+    "nombre": "Caldo de Gallina",
+    "precio": 20.50,
+    "descuento": 2,
+    "descripcion": "Sopa caliente con gallina, fideos y papas, ideal para recuperar energías.",
+    "imagen": "https://s3.eu-west-1.amazonaws.com/assets.recetasdepollo.co/uploads/2017/06/27155949/caldo-de-gallina.jpg",
+    "info": "Servido con cebolla china y huevo.",
+    "tipo": "Sopas",
+    "cubiertos": "Entrada"
+  },
+  {
+    "idplato": 15,
+    "nombre": "Anticuchos",
+    "precio": 22.00,
+    "descuento": 0,
+    "descripcion": "Brochetas de corazón de res marinadas en ají panca y asadas a la parrilla.",
+    "imagen": "https://www.comidasperuanas.net/wp-content/uploads/2016/07/Anticuchos.jpg",
+    "info": "Acompañado de papas doradas y ají.",
+    "tipo": "Parrilla",
+    "cubiertos": "Entrada"
+  },
+  {
+    "idplato": 16,
+    "nombre": "Carapulcra",
+    "precio": 28.90,
+    "descuento": 6,
+    "descripcion": "Guiso de papa seca con cerdo y maní, típico de la sierra peruana.",
+    "imagen": "https://comidasperuanas.net/wp-content/uploads/2016/06/Carapulcra.jpg",
+    "info": "Se puede acompañar con sopa seca.",
+    "tipo": "Tradicional",
+    "cubiertos": "Plato de fondo"
+  },
+  {
+    "idplato": 17,
+    "nombre": "Seco de Res",
+    "precio": 29.90,
+    "descuento": 5,
+    "descripcion": "Estofado de carne de res con culantro y ají amarillo, acompañado de frijoles.",
+    "imagen": "https://www.recetasnestle.com.pe/sites/default/files/styles/recipe_detail/public/2022-09/Seco-de-carne.jpg",
+    "info": "Servido con arroz y yuca.",
+    "tipo": "Tradicional",
+    "cubiertos": "Plato de fondo"
+  },
+  {
+    "idplato": 18,
+    "nombre": "Chicharrón de Cerdo",
+    "precio": 26.50,
+    "descuento": 0,
+    "descripcion": "Crujientes trozos de cerdo fritos, acompañados de camote y salsa criolla.",
+    "imagen": "https://comidasperuanas.net/wp-content/uploads/2016/07/Chicharron-de-cerdo.jpg",
+    "info": "Se puede servir con pan para desayuno.",
+    "tipo": "Parrilla",
+    "cubiertos": "Plato de fondo"
+  },
+  {
+    "idplato": 19,
+    "nombre": "Causa Limeña",
+    "precio": 20.00,
+    "descuento": 3,
+    "descripcion": "Relleno de papa amarilla con pollo o atún y mayonesa, decorado con aceitunas.",
+    "imagen": "https://comidasperuanas.net/wp-content/uploads/2016/06/Causa-limena.jpg",
+    "info": "Servido frío, ideal como entrada.",
+    "tipo": "Entrada",
+    "cubiertos": "Entrada"
+  }
   ]
 
 }

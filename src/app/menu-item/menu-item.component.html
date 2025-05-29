@@ -1,21 +1,27 @@
-<div class="container mt-5">
-    <div class="row justify-content-center">
-        <div class="col-md-auto">
-            <div class="card product-card">
-                <img src="{{ menu.imagen }}" class="product-image" alt="Imagen del producto">
-                <div class="product-body">
-                    <h5 class="card-title text-wrap">{{ menu.nombre }}</h5>
-                    <p class="card-text">Marca: <strong>{{ menu.cubierto }}</strong></p>
-                    <div class="price-container">
-                        <p class="product-price-old">S./{{ menu.precio }}</p>
-                        <p class="product-price">S./{{ menu.precio - menu.precio *1 | number:'1.2-2'}}</p>
-                    </div>
-                    <!-- Contenedor para centrar el botón -->
-                    <div class="d-flex justify-content-center mt-3">
-                        <a [routerLink]="['/platos', menu.idplato]" class="btn btn-primary btn-sm">Mas Informacion</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+<div class="menu-item-container my-4">
+  <div class="card product-card shadow-sm border-0 h-100 d-flex flex-column">
+    <div class="img-container bg-warning d-flex align-items-center justify-content-center" style="height:180px;">
+      <img [src]="menu.imagen" class="product-image" alt="Imagen del producto" style="max-height:160px; max-width:100%; object-fit:contain;">
     </div>
+    <div class="product-body p-3 d-flex flex-column flex-grow-1">
+      <h5 class="card-title fw-bold text-danger mb-1 text-truncate">{{ menu.nombre }}</h5>
+      <p class="mb-1 text-secondary small text-truncate">{{ menu.cubiertos }}</p>
+      <div 
+        class="price-container d-flex align-items-center gap-2 mb-2"
+        [ngClass]="{'justify-content-center': menu.descuento === 0, 'justify-content-start': menu.descuento > 0}">
+        <span *ngIf="menu.descuento > 0" class="product-price-old text-decoration-line-through text-muted">
+          S./{{ menu.precio | number:'1.2-2' }}
+        </span>
+        <span class="product-price fw-bold px-2 py-1 rounded" [ngStyle]="{'background':'#ffd600', 'color':'#d32f2f'}">
+          S./{{ (menu.precio - menu.descuento) | number:'1.2-2' }}
+        </span>
+      </div>
+      <div class="mt-auto d-flex justify-content-center">
+        <a [routerLink]="['/platos', menu.idplato]" class="btn btn-sm fw-bold"
+           style="background:#d32f2f; color:#fff; border-radius:1.5rem;">
+          Más Información
+        </a>
+      </div>
+    </div>
+  </div>
 </div>

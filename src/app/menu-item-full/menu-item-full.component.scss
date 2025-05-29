@@ -1,0 +1,122 @@
+$rojo: #d32f2f;
+$amarillo: #ffd600;
+$gris: #f5f5f5;
+
+.menu-container {
+  margin: 6% auto; // 25px arriba y abajo, auto a los lados
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  background: $gris;
+  padding: 2rem;
+}
+
+.menu-card {
+  background: white;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px rgba(211, 47, 47, 0.18), 0 2px 8px rgba(0,0,0,0.10);
+  border: 2px solid $amarillo;
+  max-width: 520px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; // Centra el contenido, incluida la imagen
+  transition: box-shadow 0.3s;
+  @media (min-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.menu-img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  background: $amarillo;
+  margin: 2rem auto 1rem auto;
+  display: block;
+  border-radius: 1rem;
+  border: 4px solid $rojo;
+  box-shadow: 0 4px 16px rgba(211, 47, 47, 0.15);
+}
+
+.menu-info {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu-title {
+  color: $rojo;
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.menu-desc {
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.menu-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-price {
+  background: $rojo;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.menu-category {
+  background: $amarillo;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #888;
+  margin-right: 0.5rem;
+}
+
+.menu-extra {
+  margin-top: 1rem;
+  color: #666;
+  font-size: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.menu-action {
+  margin-top: 1.5rem;
+  background: $rojo;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.7rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+  &:hover {
+    background: darken($rojo, 10%);
+  }
+}
+
+.loading {
+  text-align: center;
+  color: $rojo;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+}

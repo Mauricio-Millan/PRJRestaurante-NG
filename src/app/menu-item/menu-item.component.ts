@@ -10,7 +10,7 @@ import { RouterModule } from '@angular/router';
   templateUrl: './menu-item.component.html',
   styleUrl: './menu-item.component.scss'
 })
-export class MenuItemComponent {
+export class MenuItemComponent implements OnInit {
   @Input() menu!: ObjMenu; // Define la propiedad producto como obligatoria
   @Input() filtromenu: string = ''; // Define la propiedad filtroproducto como opcional
   ngOnInit(): void {
