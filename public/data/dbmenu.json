@@ -1,0 +1,114 @@
+{
+  "categorias": [
+    {
+      "idcategoria": 1,
+      "nombre": "Comida Peruana"
+    },
+    {
+      "idcategoria": 2,
+      "nombre": "Comida Internacional"
+    }
+  ],
+  "platos": [
+    {
+      "idplato": 1,
+      "nombre": "Ceviche",
+      "precio": 25.00,
+      "descuento": 10,
+      "descripcion": "Plato típico peruano de pescado marinado en jugo de limón con ají y cebolla.",
+      "imagen": "https://walac.pe/wp-content/uploads/2016/06/ceviche.jpg",
+      "info": "Servido con camote y maíz cancha.",
+      "tipo": "Mariscos",
+      "cubiertos": "Entrada"
+    },
+    {
+      "idplato": 2,
+      "nombre": "Lomo Saltado",
+      "precio": 30.00,
+      "descuento": 5,
+      "descripcion": "Trozos de carne salteados con cebolla, tomate y papas fritas, acompañado de arroz.",
+      "imagen": "https://onajunket.com/wp-content/uploads/2016/12/LOMO-SALTADO.jpg",
+      "info": "Se recomienda servir con arroz blanco.",
+      "tipo": "Carnes",
+      "cubiertos": "Plato de fondo"
+    },
+    {
+      "idplato": 3,
+      "nombre": "Pizza Margarita",
+      "precio": 22.00,
+      "descuento": 8,
+      "descripcion": "Pizza clásica con salsa de tomate, mozzarella y albahaca fresca.",
+      "imagen": "https://th.bing.com/th/id/R.d406a339343075ff627530c34ccb6b0b?rik=9C92C8pZ3TB5qA&pid=ImgRaw&r=0",
+      "info": "Ideal para los amantes de la comida italiana.",
+      "tipo": "Italiana",
+      "cubiertos": "Plato de fondo"
+    },
+        {
+      "idplato": 4,
+      "nombre": "Hamburguesa Clásica",
+      "precio": 15.90,
+      "descuento": 0,
+      "descripcion": "Hamburguesa clásica con queso, lechuga, tomate y salsa especial.",
+      "imagen": "https://yopo.pe/wp-content/uploads/2023/10/BURGER-CLASICA-RAPPI-2.jpg",
+      "info": "",
+      "tipo": "Rápida",
+      "cubiertos": "Plato de fondo"
+    },
+    {
+      "idplato": 5,
+      "nombre": "Doble Bacon",
+      "precio": 22.90,
+      "descuento": 0,
+      "descripcion": "Doble carne, doble queso, bacon crujiente y salsa BBQ.",
+      "imagen": "https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$kpX80uRT/200/200/original?country=pe",
+      "info": "",
+      "tipo": "Rápida",
+      "cubiertos": "Plato de fondo"
+    },
+    {
+      "idplato": 6,
+      "nombre": "Pollo Crispy",
+      "precio": 18.90,
+      "descuento": 0,
+      "descripcion": "Pollo empanizado crujiente con lechuga, tomate y mayonesa de ajo.",
+      "imagen": "https://cecotec.es/recetas/wp-content/uploads/2024/03/Cecofry_Hamburguesa_crispy_chicken_RRSS-1.jpg",
+      "info": "",
+      "tipo": "Rápida",
+      "cubiertos": "Plato de fondo"
+    },
+    {
+      "idplato": 7,
+      "nombre": "Vegetariana",
+      "precio": 16.90,
+      "descuento": 0,
+      "descripcion": "Hamburguesa de garbanzos con vegetales frescos y salsa tahini.",
+      "imagen": "https://www.larecetafacil.com/wp-content/uploads/2023/08/hamburguesas-veganas-receta.jpg",
+      "info": "",
+      "tipo": "Vegetariana",
+      "cubiertos": "Plato de fondo"
+    },
+    {
+      "idplato": 8,
+      "nombre": "Mega Burger",
+      "precio": 28.90,
+      "descuento": 0,
+      "descripcion": "Triple carne, triple queso, huevo, bacon y todos los acompañamientos.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc3opeQlpf15gSJx3SRXjCQFTz9a8BuyjBAw&s",
+      "info": "",
+      "tipo": "Rápida",
+      "cubiertos": "Plato de fondo"
+    },
+    {
+      "idplato": 9,
+      "nombre": "BBQ Burger",
+      "precio": 19.90,
+      "descuento": 0,
+      "descripcion": "Carne jugosa con cebolla caramelizada y salsa BBQ casera.",
+      "imagen": "https://chefeel.com/chefgeneralfiles/2021/07/front-view-burger-on-stand-scaled.jpg",
+      "info": "",
+      "tipo": "Rápida",
+      "cubiertos": "Plato de fondo"
+    }
+  ]
+
+}
