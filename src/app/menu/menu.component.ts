@@ -22,12 +22,17 @@ export class MenuComponent {
     { nombre: 'Mariscos' },
     { nombre: 'Carnes' },
     { nombre: 'Italiana' },
-    { nombre: 'Rápida' }
+    { nombre: 'Rápida' },
+    {nombre: 'Tradicional' },
+    {nombre: 'Fusión' },
+    {nombre: 'Sopas' },
+    {nombre: 'Parrilla' },
+    {nombre: 'Repostería' },
   ]
   tipocubierto: {nombrecubierto: string }[] = [
     { nombrecubierto: 'Plato de fondo' },
     { nombrecubierto: 'Entrada' },
-    { nombrecubierto: 'Postre' },
+    { nombrecubierto: 'Postres' },
     { nombrecubierto: 'Bebida' }
   ]
 

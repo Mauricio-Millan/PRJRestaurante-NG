@@ -115,7 +115,7 @@
     "precio": 24.90,
     "descuento": 5,
     "descripcion": "Guiso cremoso de gallina deshilachada con ají amarillo, acompañado de arroz y papas.",
-    "imagen": "https://www.recetasnestle.com.pe/sites/default/files/styles/recipe_detail/public/2022-09/Aji-de-gallina_1.jpg",
+    "imagen": "https://img-global.cpcdn.com/recipes/recipes_50091_v1395608940_receta_foto_00050091-l0hrw5bevlwfrq8vtlpa/1280x1280sq90/photo.webp",
     "info": "Servido con aceitunas y huevo duro.",
     "tipo": "Tradicional",
     "cubiertos": "Plato de fondo"
@@ -126,7 +126,7 @@
     "precio": 22.50,
     "descuento": 3,
     "descripcion": "Arroz frito al estilo peruano-chino con pollo, verduras y salsa de soya.",
-    "imagen": "https://th.bing.com/th/id/OIP.P54UMZgkrnOxIR4apBLm6gHaEo?pid=ImgDet&rs=1",
+    "imagen": "https://cdn0.recetasgratis.net/es/posts/6/6/2/arroz_chaufa_peruano_74266_600.webp",
     "info": "Puede llevar mariscos o carne de res.",
     "tipo": "Fusión",
     "cubiertos": "Plato de fondo",
@@ -138,7 +138,7 @@
     "precio": 26.90,
     "descuento": 7,
     "descripcion": "Mezcla de arroz y frejoles dorados en sartén, servido con bistec y huevo frito.",
-    "imagen": "https://www.lacocinademona.com/wp-content/uploads/2021/10/Tacu-Tacu-RR.jpg",
+    "imagen": "https://c1.staticflickr.com/5/4002/4201366754_c01ce996e8_b.jpg",
     "info": "Puede llevar salsa criolla encima.",
     "tipo": "Tradicional",
     "cubiertos": "Plato de fondo"
@@ -149,7 +149,7 @@
     "precio": 18.00,
     "descuento": 4,
     "descripcion": "Rodajas de papa bañadas en salsa de ají amarillo y queso fresco.",
-    "imagen": "https://comidasperuanas.net/wp-content/uploads/2016/07/Papa-a-la-huancaina.jpg",
+    "imagen": "https://cenafacil.com/wp-content/uploads/2023/03/papa-a-la-huancaina.jpg",
     "info": "Servido con huevo duro y aceitunas negras.",
     "tipo": "Entrada",
     "cubiertos": "Entrada"
@@ -160,7 +160,7 @@
     "precio": 20.50,
     "descuento": 2,
     "descripcion": "Sopa caliente con gallina, fideos y papas, ideal para recuperar energías.",
-    "imagen": "https://s3.eu-west-1.amazonaws.com/assets.recetasdepollo.co/uploads/2017/06/27155949/caldo-de-gallina.jpg",
+    "imagen": "https://www.magacin247.com/wp-content/uploads/2021/05/caldo-de-gallina-1.jpg",
     "info": "Servido con cebolla china y huevo.",
     "tipo": "Sopas",
     "cubiertos": "Entrada"
@@ -171,7 +171,7 @@
     "precio": 22.00,
     "descuento": 0,
     "descripcion": "Brochetas de corazón de res marinadas en ají panca y asadas a la parrilla.",
-    "imagen": "https://www.comidasperuanas.net/wp-content/uploads/2016/07/Anticuchos.jpg",
+    "imagen": "https://imgs.search.brave.com/tKg71NXyO1cWZwu0LUNAU5bQ-HQIATSuQg120bkgRUs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzM5L2M0/L2U5LzM5YzRlOWM2/YjBlNGM3M2E5M2I3/Y2QwNTJmMjFjMDE3/LmpwZw",
     "info": "Acompañado de papas doradas y ají.",
     "tipo": "Parrilla",
     "cubiertos": "Entrada"
@@ -182,7 +182,7 @@
     "precio": 28.90,
     "descuento": 6,
     "descripcion": "Guiso de papa seca con cerdo y maní, típico de la sierra peruana.",
-    "imagen": "https://comidasperuanas.net/wp-content/uploads/2016/06/Carapulcra.jpg",
+    "imagen": "https://media-cdn.tripadvisor.com/media/photo-s/08/59/ec/3c/restaurante-el-batan.jpg",
     "info": "Se puede acompañar con sopa seca.",
     "tipo": "Tradicional",
     "cubiertos": "Plato de fondo"
@@ -193,7 +193,7 @@
     "precio": 29.90,
     "descuento": 5,
     "descripcion": "Estofado de carne de res con culantro y ají amarillo, acompañado de frijoles.",
-    "imagen": "https://www.recetasnestle.com.pe/sites/default/files/styles/recipe_detail/public/2022-09/Seco-de-carne.jpg",
+    "imagen": "https://img-global.cpcdn.com/recipes/cea0bb51cc3a946f/1280x1280sq90/photo.webp",
     "info": "Servido con arroz y yuca.",
     "tipo": "Tradicional",
     "cubiertos": "Plato de fondo"
@@ -204,7 +204,7 @@
     "precio": 26.50,
     "descuento": 0,
     "descripcion": "Crujientes trozos de cerdo fritos, acompañados de camote y salsa criolla.",
-    "imagen": "https://comidasperuanas.net/wp-content/uploads/2016/07/Chicharron-de-cerdo.jpg",
+    "imagen": "https://cdn.shopify.com/s/files/1/0562/7877/8029/files/Que_son_los_chicharrones_600x600.jpg?v=1649064226",
     "info": "Se puede servir con pan para desayuno.",
     "tipo": "Parrilla",
     "cubiertos": "Plato de fondo"
@@ -215,11 +215,87 @@
     "precio": 20.00,
     "descuento": 3,
     "descripcion": "Relleno de papa amarilla con pollo o atún y mayonesa, decorado con aceitunas.",
-    "imagen": "https://comidasperuanas.net/wp-content/uploads/2016/06/Causa-limena.jpg",
+    "imagen": "https://media-cdn.tripadvisor.com/media/photo-s/07/fc/13/b3/panchita.jpg",
     "info": "Servido frío, ideal como entrada.",
     "tipo": "Entrada",
     "cubiertos": "Entrada"
-  }
+  },{
+      "idplato": 20,
+      "nombre": "Suspiro a la Limeña",
+      "precio": 15.00,
+      "descuento": 2,
+      "descripcion": "Postre clásico peruano con manjar blanco y merengue.",
+      "imagen": "https://elcomercio.pe/resizer/v2/EHTND334Y5AODNPEKATE4AJWOU.jpg?auth=d299cb058e883dfdc4f1a51c24024b4f1c64f7d56013460e4d8e4b16aad58e00&width=800&height=540&quality=75&smart=true",
+      "info": "Espolvoreado con canela.",
+      "tipo": "Repostería",
+      "cubiertos": "Postres"
+    },
+    {
+      "idplato": 21,
+      "nombre": "Torta de Chocolate",
+      "precio": 18.50,
+      "descuento": 5,
+      "descripcion": "Bizcocho de chocolate con relleno de ganache y cobertura de cacao.",
+      "imagen": "https://media.istockphoto.com/id/1370520449/es/foto/rebanada-de-pastel-de-chocolate-con-glaseado.jpg?s=612x612&w=0&k=20&c=LvnbdEqWXwitC4utYXHtI_UBTZA_JuqmGL13c0Bm6fA=",
+      "info": "Acompañada de helado de vainilla.",
+      "tipo": "Repostería",
+      "cubiertos": "Postres"
+    },
+    {
+      "idplato": 22,
+      "nombre": "Mazamorra Morada",
+      "precio": 12.90,
+      "descuento": 0,
+      "descripcion": "Dulce tradicional a base de maíz morado con frutas y canela.",
+      "imagen": "https://www.infobae.com/resizer/v2/E4QT5RJMKRA35MLMRVPZZ4C5X4.png?auth=58d4b1810f0c7f5c46cfcf9070d894e8aed656164b0db5f7c47fdacf716d05c9&smart=true&width=992&height=558&quality=85",
+      "info": "Se sirve frío o tibio.",
+      "tipo": "Repostería",
+      "cubiertos": "Postres"
+    },
+    {
+      "idplato": 23,
+      "nombre": "Helado de Lúcuma",
+      "precio": 14.00,
+      "descuento": 3,
+      "descripcion": "Helado artesanal de lúcuma con trozos de chocolate.",
+      "imagen": "https://img-global.cpcdn.com/recipes/eda25f38ca5a538c/1280x1280sq90/photo.webp",
+      "info": "Ideal para días calurosos.",
+      "tipo": "Repostería",
+      "cubiertos": "Postres"
+    },
+    {
+      "idplato": 24,
+      "nombre": "Picarones",
+      "precio": 10.50,
+      "descuento": 1,
+      "descripcion": "Rosquillas de zapallo y camote, bañadas en miel de chancaca.",
+      "imagen": "https://fullhousemachupicchu.com/wp-content/uploads/2023/06/picarones1.webp",
+      "info": "Crujientes por fuera, suaves por dentro.",
+      "tipo": "Repostería",
+      "cubiertos": "Postres"
+    },
+    {
+      "idplato": 25,
+      "nombre": "Crema Volteada",
+      "precio": 13.90,
+      "descuento": 4,
+      "descripcion": "Postre suave y cremoso similar al flan, con caramelo dorado.",
+      "imagen": "https://perucomidas.com/wp-content/uploads/2024/08/tipos-de-crema-volteada-peruana.png",
+      "info": "Servido frío.",
+      "tipo": "Repostería",
+      "cubiertos": "Postres"
+    },
+    {
+      "idplato": 26,
+      "nombre": "Alfajores",
+      "precio": 9.90,
+      "descuento": 2,
+      "descripcion": "Dulces rellenos de manjar blanco con una capa de azúcar impalpable.",
+      "imagen": "https://media.istockphoto.com/id/1180243264/es/foto/alfajores-argentinos-tradicionales.jpg?s=612x612&w=0&k=20&c=twBFtEiO9sf5wH9IkLQyoCZMNHw1pJHBHZ8HwzmZ14k=",
+      "info": "Perfectos para acompañar un café.",
+      "tipo": "Repostería",
+      "cubiertos": "Postres"
+    }
   ]
 
 }

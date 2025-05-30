@@ -1,23 +1,19 @@
-    <header>
-        <div class="container">
-            <div class="logo">
-                <img src="https://media.istockphoto.com/id/1038355632/es/vector/hamburger-icono.jpg?s=612x612&w=0&k=20&c=CLgewUtG05gncWmuiY0_O4GLY44tc-9SJofq_xZ-MWQ=" alt="BurgerExpress Logo">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="/platos">Menú</a></li>
-                    <li><a href="#promociones">Promociones</a></li>
-                    <li><a href="#locales">Locales</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
-            <div class="header-actions">
-                <button class="btn-pedido">Haz tu pedido</button>
-                <div class="cart-icon">
-                    <i class="fas fa-shopping-cart"></i>
-                    <span class="cart-count">0</span>
-                </div>
-            </div>
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="https://media.istockphoto.com/id/1038355632/es/vector/hamburger-icono.jpg?s=612x612&w=0&k=20&c=CLgewUtG05gncWmuiY0_O4GLY44tc-9SJofq_xZ-MWQ=" alt="BurgerExpress Logo">
         </div>
-    </header>
+        <button class="menu-toggle" (click)="navOpen = !navOpen" aria-label="Abrir menú">
+            &#9776;
+        </button>
+        <nav [ngClass]="{'open': navOpen}">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="/platos">Menú</a></li>
+                <li><a href="#promociones">Promociones</a></li>
+                <li><a href="#locales">Locales</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
